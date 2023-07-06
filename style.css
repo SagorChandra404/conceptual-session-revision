@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(36, 35, 35);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 100px;
+}
+.menu{
+    display: flex;
+}
+.items{
+   margin-right: 10px;
+   padding-right: 10px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.items:hover{
+    color: brown;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(59, 52, 52));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+   padding: 10px 20px; 
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+.btn:hover{
+    color: rgb(62, 62, 235);
+    background-color: rgb(134, 89, 56);
+}
+
+.banner-img{
+    width: 300px;
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: space-around  ;
+    align-items: center;
+    flex-direction: row-reverse ;
+    padding: 20px;
+}
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.p-about{
+    padding-top: 10px;
+}
+
+.btn2{
+    padding: 10px 20px; 
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+}
+
+.btn2:hover{
+    color: rgb(62, 62, 235);
+    background-color: rgb(134, 89, 56);
+}
+
+.box{
+    background-color: black;
+    width: 230px;
+    height: 28 0px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px gray;
+}
+
+
+.icon{
+    width: 70px;
+}
+
+.btn3{
+    padding: 10px 20px; 
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;  
+}
+.btn3:hover{
+    color: rgb(62, 62, 235);
+    background-color: rgb(134, 89, 56);
+}
+
+.service-title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.box-title{
+    padding: 10px;
+}
+
+.box-description{
+    padding: 5px ;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8, 8, 8), rgb(59, 52, 52));
+    padding: 20px;
+}
